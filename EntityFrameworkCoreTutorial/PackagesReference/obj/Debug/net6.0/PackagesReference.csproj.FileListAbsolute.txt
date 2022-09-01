@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\bin\Debug\net6.0\PackagesReference.deps.json
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\bin\Debug\net6.0\PackagesReference.runtimeconfig.json
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\bin\Debug\net6.0\PackagesReference.dll
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\bin\Debug\net6.0\PackagesReference.pdb
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.AssemblyInfo.cs
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.dll
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\refint\PackagesReference.dll
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.pdb
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\PackagesReference.genruntimeconfig.cache
+C:\Users\USER\Desktop\EntityFrameworkCoreTutorial\PackagesReference\obj\Debug\net6.0\ref\PackagesReference.dll

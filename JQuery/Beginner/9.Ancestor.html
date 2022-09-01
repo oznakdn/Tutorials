@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>Ancestor (ust ebeveyn)</title>
+    <style>
+      .class1 {
+        display: block;
+        border: 2px solid lightgray;
+        color: gray;
+        padding: 5px;
+        margin: 15px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1" class="class1">
+      div (5.Ebeveny) Id: #div1
+      <div id="div2" class="class1">
+        div (4.Ebeveyn) Id: #div2
+        <ul class="class1">
+            ul (3.Ebeveyn)
+          <li class="class1">
+            li (2.Ebeveyn)
+            <p class="class1">
+              p (1.Ebeveyn)
+              <span class="class1">span</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+      <div id="div3" class="class1">
+        div Id: #div3
+        <div id="div4" class="class1">
+            div Id: #div4
+        </div>
+      </div>
+      <h1 class="class1">h1</h1>
+    </div>
+
+    <br />
+    <button id="btn">Click</button>
+    <button id="btn2">Click2</button>
+    <button id="btn3">Click3</button>
+    <button id="btn4">Click4</button>
+
+
+
+
+
+
+
+    <script>
+      $(function () {
+
+
+        // Bir ustundeki ebeveyni secer
+        $("#btn").click(function(){
+
+            $("span").parent().css(
+                {
+                "border":"2px solid red",
+                "color":"red"
+                }
+            );
+
+
+        });
+
+        // Uzerindeki tum ebeveynleri secer
+        $("#btn2").click(function(){
+            $("span").parents().css(
+                {
+                    "border":"2px solid blue",
+                    "color":"black"
+                }
+            )
+        });
+
+        // Uzerindeki parametre olarak verilen ebeveyne kadar secer
+        $("#btn3").click(function(){
+            $("span").parents("ul").css(
+                {
+                    "border":"2px solid yellow",
+                    "color":"black"
+                }
+            )
+        });
+
+        // Uzerindeki parametre olarak verilen ebeveyn haric digerlerini secer
+        $("#btn4").click(function(){
+            $("span").parentsUntil("ul").css(
+                {
+                    "border":"2px solid orange",
+                    "color":"black"
+                }
+            )
+        });
+
+
+
+      });
+    </script>
+
+  </body>
+</html>

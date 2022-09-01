@@ -1,0 +1,16 @@
+{
+  "name": "00-express-server",
+  "version": "1.0.0",
+  "description": "REST API with AJAX on Express Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ozan Akaydin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

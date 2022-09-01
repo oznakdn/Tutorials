@@ -1,0 +1,9 @@
+Veritabanı sistemi	Paket
+---------------------------
+SQL Server ve SQL Azure	          Microsoft.EntityFrameworkCore.SqlServer
+SQLite	                          Microsoft.EntityFrameworkCore.Sqlite
+Azure Cosmos DB	                  Microsoft.EntityFrameworkCore.Cosmos
+PostgreSQL	                      Npgsql.EntityFrameworkCore.PostgreSQL
+MySQL	                          Pomelo.EntityFrameworkCore.MySql
+EF Core bellek içi veritabanı	  Microsoft.EntityFrameworkCore.InMemory
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        .class1{
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .colorwhite{
+            color: white;
+        }
+
+        .p2{
+            color: blueviolet;
+        }
+    </style>
+    <title>AddClass</title>
+</head>
+<body>
+    
+<div id="div1" class="class1">
+    <p id="p1">Lorem, ipsum dolor.</p>
+    <p id="p2" class="p2">Est, vero doloribus!</p>
+    <p id="p3">Id, facere dolorum!</p>
+    <p id="p4">Iusto, explicabo omnis.</p>
+</div>
+
+<br><br>
+<button id="btn">Click</button>
+
+
+    <script>
+        $(function(){
+
+            // Add Class
+            $("#btn").click(function(){
+                $("#p1").addClass("blue")
+            });
+
+            $("#btn").dblclick(function(){
+                $("#p2").addClass("red colorwhite")
+            });
+
+            // Remove Class
+            $("#btn").mouseover(function(){
+                $(".p2").removeClass("p2")
+            })
+
+            // If Has
+
+            $("#btn").mouseenter(function(){
+                $("p2").toggleClass("p2")
+            })
+
+        });
+    </script>
+</body>
+</html>

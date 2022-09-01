@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        #outline{
+            width: 100%;
+            height: 150px;
+        }
+        .c1{
+            width: 15%;
+            height: 150px;
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 150px;
+            float: left;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        #div1{
+            width: 35%;
+            height: 450px;
+            background-color: gray;
+            margin-left: 500px;
+            color:white;
+            display: none;
+            position:relative;
+            top: 10px; 
+        }
+    </style>
+    <title>Example-1 Photo Album</title>
+</head>
+<body>
+    <div id="outline">
+        <img class="c1" id="img1" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Stonehenge.jpg?20051013182326" style="max-width:300px;" alt="">
+        <img class="c1" id="img2" src="http://personal.psu.edu/hvy5070/Nature.jpeg" alt="" style="max-width:300px;">
+        <img class="c1" id="img3" src="http://personal.psu.edu/hvy5070/Nature.jpeg" alt="" style="max-width:300px;">
+        <img class="c1" id="img4" src="http://personal.psu.edu/mwd5542/jpg.jpg" alt="" style="max-width:300px;">
+        <img class="c1" id="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHYAcTrEjRzuMmUykGWXBTrdB5pqjYWB6uil92V4G1qVIv_LWYPswcaNNtYo9RTc6KQs&usqp=CAU" alt="" style="max-width:300px;">
+        <img class="c1" id="img6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/M%C5%82oda_sowa_%C5%9Bnie%C5%BCna.jpg/932px-M%C5%82oda_sowa_%C5%9Bnie%C5%BCna.jpg" alt="" style="max-width:300px;">
+    </div>
+    <div id="div1">
+
+    </div>
+
+
+
+
+    <script>
+
+
+
+           
+
+            $(function(){
+
+            let photos=['"#img1"','"#img2"','"#img3"','"#img4"','"#img5"','"#img6"'];
+            let photo;
+            for (let i = 0; i < photos.length; i++) {
+                 photo=photos[i];
+
+                $(photo).mouseover(function(){
+                $("#div1").fadeIn(2000).css("display","block");
+                });
+
+            };
+            
+           
+       
+        
+          
+        });
+
+    </script>
+</body>
+</html>

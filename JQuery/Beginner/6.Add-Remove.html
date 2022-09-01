@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        #btn{
+            margin-top: 30px;
+        }
+
+        .trying{
+            border: 2px solid black;
+        }
+        p{
+            padding-left: 10px;
+        }
+    </style>
+
+    <title>Add & Remove</title>
+</head>
+<body>
+    
+    <div id="div1" class="trying">
+        <p id="p1">Lorem, ipsum.</p>
+        <p id="p2">Lorem, ipsum dolor.</p>
+        <p id="p3">Lorem ipsum dolor sit.</p>
+        <p id="p4">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <button id="btn">Click</button>
+    <button id="btndbl">Double Click</button>
+
+
+    <script>
+    
+        
+        $(function(){
+
+                // For Add
+            $("#btn").click(function(){
+
+                $("#div1").append("Javascript learning") // write div up
+
+                var x=$("<h1></h1>").text("Hello");
+                $("#div1").append(x)
+
+                $("#div1").prepend("JQuery earning") // write div down
+                $("#div1").after("Html learning") // write after div
+                $("#div1").before("Css learning") // write before div
+            })
+
+                // For Remove
+            $("#btndbl").dblclick(function(){
+                $("#p1").remove();
+                $("#p2").empty();
+            })
+        });
+    </script>
+</body>
+</html>

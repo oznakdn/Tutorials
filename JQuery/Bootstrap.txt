@@ -1,0 +1,103 @@
+						  -------- BOOTSTRAP ----------
+
+
+********** Padding ************
+* 0-1-2-3-4-5
+* p => padding her yonde
+* pr => padding-right
+* pl => padding-left
+* pt => padding-top
+* pb => padding-bottom
+* px => sadece x yonunde
+* py => sadece y yonunde
+
+********** Margin ************
+* 0-1-2-3-4-5
+* m => margin her yonde
+* mr => margin-right
+* ml => margin-left
+* mt => margin-top
+* mb => margin-bottom
+* mx => sadece x yonunde
+* my => sadece y yonunde
+* mr-auto => sagdan otomatik
+* ml-auto => soldan otomatik
+
+********** Display ************
+* d-inline => span etiketi gibi inline yapar. width ve height verilemez
+* d-block => div etiketi gibi block yapar. with ve higth verilebilir
+* d-inline-block => width ve heigth verilebilir
+* d-none => yer kaplamadan kaybeder
+* invisible => yer kaplayarak kaybeder
+
+********** Border ************
+* border => tum alanlara verilir
+* border-top => uste verilir
+* border-bottom => alta verilir
+* border-right => sag tarafa verilir
+* border-left => sol tarafa verilir
+
+* border-0 => tum borderlari siler
+* border-top-0 => ust borderlari siler
+* border-bottom-0 => alt borderlari siler
+* border-right-0 => sag borderlari siler
+* border-left-0 => sol borderlari siler
+
+********** Rounded ************
+* rounded => borderlara ovallik verir (border-radius gibi)
+* rounded-top => ustten ovallik veriri
+* rounded-bottom => alttan ovallik verir
+
+********** Width ************
+* w-25
+* w-50
+* w-75
+* w-100
+
+********** Height ************
+* h-25
+* h-50
+* h-75
+* h-100
+
+********** Table ************
+* table
+* table-responsive
+* table-sm
+* table-bordered
+* table-striped
+* table-dark
+* table-hover
+* table-primary
+* table-success v.s
+
+********** Float ************
+* clearfix =>
+* float-left => sola alir
+* float-right => saga alir
+* float-end => sona alir
+* float-start => basa alir
+
+********** Picture ************
+* rounded => resim cercevesini ovallestirmek icin açı verir
+* rounded-circle => resim daire olarak gosterir
+* img-thumbnail => resim etrafinda çerçeve oluşturur
+* img-fluid => resmi responsive yapar
+* resmi ortalamak icin => 
+  <img src="" class="w-75 d-block mx-auto">
+  img{max-width:100%; height:auto;}
+
+********** Card ************
+* card
+* card-header
+* card-body
+* card-title
+* card-text
+* card-link
+* card-footer
+
+********** Card-img ************
+* card
+* card-img-top => resmi kartin ustunden verir
+* card-img-overlay => resim icerisinde alan eklemek icin kullanilir
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        .deneme{
+            display: block;
+            height: 100px;
+            border: 2px solid lightgray;
+            color:grey;
+            padding: 5px;
+            margin: 15px;
+            font-weight: bold;
+        }
+    </style>
+    <title>Filtering</title>
+</head>
+<body>
+    <div class="deneme c1" id="div1">
+        #div1 
+        <br><br>
+        .c1
+    </div>
+    <div class="deneme c2" id="div2">
+        #div2 
+        <br><br>
+        .c2
+    </div>
+    <div class="deneme c3" id="div3">
+        #div3 
+        <br><br>
+        .c3
+    </div>
+
+    <br>
+    <button id="btn">Click</button>
+    <button id="btn1">Click1</button>
+    <button id="btn2">Click2</button>
+
+
+
+
+
+    <script>
+        $(function(){
+
+            // ilk div'i secer
+            $("#btn").click(function(){
+                $("div").first().css({
+                    "border":"2px solid green",
+                    "color":"green"
+                })
+            })
+
+            // son div'i secer
+            $("#btn").click(function(){
+                $("div").last().css({
+                    "border":"2px solid red",
+                    "color":"red"
+                })
+            })
+
+            // eq metoduna verilen index numarasina gore secer
+            $("#btn1").click(function(){
+                $("div").eq(0).css({
+                    "border":"2px solid purple",
+                    "color":"purple"
+                })
+            })
+
+            // filter metodunda parametre olarak girilen class yada id degerine gore secer
+            $("#btn1").click(function(){
+                $("div").filter(".c2").css({
+                    "border":"2px solid pink",
+                    "color":"pink"
+                })
+            })
+
+            // not metodunda parametre olarak girilen elemen disinda tum divleri secer
+            $("#btn2").click(function(){
+                $("div").not(".c2").css({
+                    "border":"2px solid pink",
+                    "color":"pink"
+                })
+            })
+        });
+    </script>
+</body>
+</html>

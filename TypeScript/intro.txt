@@ -1,0 +1,45 @@
+---------------------------- JAVASCRIPT ------------------------------
+* Veriable declaration *
+let a = 10; 
+a = 20;       =========> valid
+a = true;     =========> valid
+a = "test";   =========> valid
+a = {};       =========> valid
+a = [];       =========> valid
+a = null;     =========> valid
+a = function(){};  =========> valid
+
+
+* Function declaration *
+let greet = function(name, age){
+    .........
+};
+
+greet('John',40); =========> valid
+greet('John);     =========> valid
+greet(40);        =========> valid
+greet();          =========> valid
+
+
+---------------------------- TYPESCRIPT ------------------------------
+* Veriable declaration *
+let a:number = 10; 
+a = 20;       =========> valid
+a = true;     =========> error
+a = "test";   =========> error
+
+* Function declaration *
+let greet = function(name:string, age:number):void{
+    .........
+};
+
+greet('John',40); =========> valid
+greet('John);     =========> error
+greet(40);        =========> error
+greet();          =========> error
+
+
+---------------------------- Compiler and Execute ------------------------------
+compile -----> tsc app.ts
+execute -----> node app.js   
+compile and exceute -------> ts-node app.ts  (npm install -g ts-node)

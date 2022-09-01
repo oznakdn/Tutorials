@@ -1,0 +1,12 @@
+h1{
+    color: red;
+    text-align: center;
+}
+#img2{
+
+    height: 250px;
+    width: 250px;
+    opacity: 0.4;
+    position: absolute;
+}
+

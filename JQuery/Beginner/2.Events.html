@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>Events</title>
+  </head>
+  <body>
+    <div
+      id="div1"
+      style="height: 100px; width: 100%; background-color: red"
+    ></div>
+    <div
+      id="div2"
+      style="height: 100px; width: 100%; background-color: blue"
+    ></div>
+    <div id="div3" style="margin-top: 20px">
+      <input id="txt" type="text" /><br /><br />
+      <button id="btn">Click</button>
+    </div>
+
+    <script>
+        
+      $(document).ready(function () {
+        $("#div1").click(function () {
+          $(this).css("background-color", "yellow");
+        });
+
+        $("#div2").dblclick(function () {
+          $(this).css("background-color", "orange");
+        });
+
+        $("#div2").mouseenter(function () {
+          $(this).css("background-color", "green");
+        });
+
+        $("#div2").mouseleave(function () {
+          $(this).css("background-color", "blue");
+        });
+
+        $("#div1").mouseover(function () {
+          $(this).css("background-color", "pink");
+        });
+
+        $("#div1").mouseout(function () {
+          $(this).css("background-color", "blue");
+        });
+
+        $("#btn").hover(function(){
+            $(this).css("color","red")
+        })
+
+        $("#txt").keypress(function(){
+            $(this).css("background-color","blue")
+        })
+
+        $("#txt").keydown(function(){
+            $(this).css("background-color","red")
+        })
+      });
+
+    </script>
+  </body>
+</html>

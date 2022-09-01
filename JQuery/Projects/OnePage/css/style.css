@@ -1,0 +1,265 @@
+
+/************** common config group selector *****************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", sans-serif,Arial, Helvetica;
+    background-color: rgb(13, 32, 18);
+    text-align: center;
+    line-height: 1.7;
+    color: #fff;
+    font-size:1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+
+/********************** header ***********************/
+
+header{
+    height: 50rem;
+    position: relative;
+}
+header .image-header{
+  height: 50rem;
+  width:100%;
+  background-image: url(/Projects/OnePage/image/code.jpg);
+  opacity:0.4;
+  z-index: -1;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  padding: 8rem 12rem 2rem 12rem;
+  text-transform: uppercase;
+}
+
+p{
+  padding: 2rem;
+}
+
+.btn-header{
+  color: #fff;
+  background-color: #007bff;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid rgb(255, 212, 59);
+  border-radius: .25rem;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  transition: all 0.4s;
+  margin: .6rem 0;
+  padding:1.7rem 3.4rem;
+  white-space:nowrap;
+  box-shadow:1px 2px 3px 2px black;
+}
+
+.btn-header:hover{
+  background-color: #fff;
+  color:#007bff ;
+  box-shadow:1px 2px 3px 6px black;
+
+  
+}
+
+/*nav*/
+nav{
+  background-color:#007bff;
+  color: #fff;
+  padding:3rem 0 3rem 0;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  z-index:1;
+}
+.container{
+  width: 120rem;
+  margin:0 auto;
+  padding-left: .6rem;
+  padding-right: .6rem;
+  padding-bottom:2rem;
+}
+.btk-akademi{
+  color: #fff;
+  font-size:2rem;
+}
+
+#menu{
+  float: right;
+}
+
+#menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin:0 12rem 12rem 0;
+}
+
+#menu i{
+  margin-left: .5rem;
+}
+
+#menu a{
+  color: #fff;
+  font-size:1.4rem;
+  font-weight: 600;
+  letter-spacing:.2rem;
+  transition: all .3s;
+}
+
+#menu a:hover{
+  color:#007bff;
+  background-color: #fff;
+  border-radius:.2rem;
+}
+
+#logo{
+  float: left;
+}
+
+#logo-image{
+  width: 30px;
+  float: left;
+  border-radius: 25%;
+}
+
+#logo-image:hover{
+  opacity: .8;
+}
+
+
+/************************* main ************************/
+/* section1 */
+main #division-1-main{
+  background-color: black;
+  color: white;
+  padding:4.4rem 0;
+}
+
+
+/* section2 */
+main #division-2-list{
+  padding:2.3rem;
+  background-color: #fff;
+  color: #234;
+}
+
+#division-2-list ul li{
+  list-style-type: none;
+}
+
+.area-div{
+  padding:1.4rem;
+}
+
+.area img{
+  border-radius:1rem;
+  opacity:0.9;
+}
+
+.area-div h3{
+  text-transform: uppercase;
+  font-weight:bolder;
+}
+
+
+/* section3 */
+#division-3-career{
+  width: 100%;
+  height: 50rem;
+  margin:2rem 0;
+}
+
+#left-main{
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: tomato;
+}
+
+#left-main img{
+  width: 150px;
+  padding-left: 2rem 2rem 2rem 2rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  border-radius: 30%;
+  z-index: 1;
+
+}
+
+#right-main{
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: orange;
+}
+
+#right-main ul li{
+  list-style-type: none;
+}
+
+
+/*top menu*/
+
+
+#top a{
+  position: fixed;
+  bottom:0;
+  right: 1rem;
+  width: 10rem;
+  height: 3rem;
+  background-color: #007bff;
+  color: white;
+  transition:all .4s;
+}
+
+#top a:hover{
+  box-shadow: 1px 2px 3px 2px black;
+}
+
+/************************* form ************************/
+#form-email{
+  width: 100%;
+  height: 25rem;
+}
+.form-group-all{
+  width: 100%;
+  height: auto;
+}
+.form-control{
+  width: 30%;
+  padding:2rem;
+  border: 1px solid aqua;
+  border-radius: .5rem;
+  box-sizing: border-box;
+}
+
+.form-group{
+  margin: .5rem;
+}

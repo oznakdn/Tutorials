@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>On | Off | One | Proxy Events</title>
+    <style>
+        #div1{
+            width: 100%;
+            height: 200px;
+            background-color: yellow;
+        }
+        #btn{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+<div id="div1"></div>
+<button id="btn">Click</button>
+
+
+
+    <script>
+        $(function(){
+    
+            /******* On Event *******/
+            $("#btn").on({
+
+            click:function(){
+                $("#div1").css("background-color","green")
+            },
+
+            dblclick:function(){
+                $("#div1").css("background-color","red")
+            },
+
+            mouseenter:function(){
+                $("#div1").css("background-color","pink")
+            }
+        
+            });
+
+            /******* Off Event *******/
+            $("#btn").click(function(){
+                $("#div1").off("click");
+            });
+    
+            /******* One Event *******/
+            $("#btn").one(function(){
+                $("#div1").css("background-color","black")
+            });
+
+            /******* Proxy Event *******/
+            var Persons={
+                name:"John",
+                surname:"Walk",
+
+                Change:function(){
+                    $("#div1").css("background-color","black")
+                }
+            }
+
+            $("#btn").click($.proxy(Persons,"Change"))
+
+        });
+    </script>
+</body>
+
+</html>

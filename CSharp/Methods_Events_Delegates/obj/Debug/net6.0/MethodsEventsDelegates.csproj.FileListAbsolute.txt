@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\bin\Debug\net6.0\MethodsEventsDelegates.exe
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\bin\Debug\net6.0\MethodsEventsDelegates.deps.json
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\bin\Debug\net6.0\MethodsEventsDelegates.runtimeconfig.json
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\bin\Debug\net6.0\MethodsEventsDelegates.dll
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\bin\Debug\net6.0\MethodsEventsDelegates.pdb
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.AssemblyInfo.cs
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.dll
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\refint\MethodsEventsDelegates.dll
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.pdb
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\MethodsEventsDelegates.genruntimeconfig.cache
+C:\Users\USER\Desktop\CSharp\MethodsEventsDelegates\obj\Debug\net6.0\ref\MethodsEventsDelegates.dll

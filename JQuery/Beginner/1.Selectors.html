@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>Selectors</title>
+  </head>
+  <body>
+    <div>
+      <h4>Paragraphs</h4>
+      <p id="p1" class="c1">Lorem, ipsum dolor.</p>
+      <p id="p2" class="c1">Lorem ipsum dolor sit.</p>
+      <p id="p3" class="c2">Lorem, ipsum.</p>
+      <p id="p4" class="c3">Lorem ipsum dolor sit amet.</p>
+      <button id="btnP">Click</button>
+    </div>
+    <hr />
+    <div>
+      <h4>Staffs</h4>
+      <table style="border: 2px solid black">
+        <thead id="head">
+          <tr>
+            <th>Firstname-Lastname</th>
+            <th>Age</th>
+            <th>Profession</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mehmet Kosar</td>
+            <td>35</td>
+            <td>Engineer</td>
+          </tr>
+          <tr>
+            <td>Seda Bilir</td>
+            <td>30</td>
+            <td>Teacher</td>
+          </tr>
+          <tr>
+            <td>Metin Sever</td>
+            <td>32</td>
+            <td>Captain</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <button id="btnTable">Click</button>
+    </div>
+    <hr />
+    <div>
+      <h4>Lists</h4>
+      <ul>
+        Back-End
+        <li>C#</li>
+        <li>Java</li>
+        <li>Php</li>
+        <li>Node</li>
+      </ul>
+      <ul>
+        Front-End
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>JQuery</li>
+      </ul>
+      <button id="btnList">Click</button>
+    </div>
+
+    <hr />
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <button id="btnA">Click</button>
+
+    <script>
+      $(document).ready(function () {
+        $("#btnP").dblclick(function () {
+          $("p").css("color", "red");
+          $("p.c1").css("background-color", "pink");
+          $("#p3").css("background-color", "green");
+          $("p:last").css("background-color", "yellow");
+          $("p:not(':contains(sit)')").css("background-color", "red");
+          $("p:contains(sit)").css("background-color", "blue");
+        });
+
+        $("#btnList").click(function () {
+          $("ul li:even").css("color", "red");
+          $("ul li:odd").css("color", "blue");
+          $("ul li:first-child").css("background-color", "yellow");
+          $("ul li:last-child").css("background-color", "yellow");
+        });
+
+        $("#btnA").click(function () {
+          $("a[target='_blank']").css("color", "green");
+          $("div:has(p)").css("background-color","black")
+        });
+
+        $("#btnTable").click(function () {
+          $("#head").css("color", "red");
+        });
+      });
+    </script>
+  </body>
+</html>

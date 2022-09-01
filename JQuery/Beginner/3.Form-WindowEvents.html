@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+      #div1 {
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        overflow: scroll;
+      }
+      #div2 {
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+    </style>
+    <title>Form end Window Events</title>
+  </head>
+  <body>
+    <div id="div1">
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Repellat nemo voluptatem tempore.</p>
+      <p>Esse iure eveniet quo?</p>
+      <p>Omnis blanditiis ipsa impedit?</p>
+      <p>Eveniet dolorem reprehenderit exercitationem?</p>
+      <p>A commodi nam labore.</p>
+      <p>Quibusdam placeat nostrum architecto?</p>
+      <p>Voluptates quibusdam excepturi sit.</p>
+      <p>Eius atque eos repellendus.</p>
+      <p>Delectus rem nobis itaque?</p>
+    </div>
+    <p id="p1">Scroll Count:</p>
+    <p id="WidthHeight">Width and Height</p>
+
+    <div id="div2">
+      <h4>select all words with the mouse</h4>
+      <form action="" id="frm">
+        <input type="text" id="txt1" placeholder="Username" /><br />
+        <input type="password" id="password1" placeholder="Password" /><br />
+        Female<input type="radio" id="radioFemale" name="Gender" /><br />
+        Male<input type="radio" id="radioMale" name="Gender" /><br /><br />
+        <input type="submit" id="btn" value="Send" />
+      </form>
+    </div>
+    <button id="btnClick">Click</button>
+
+    <script>
+      $(function () {
+        $("#frm").submit(function () {
+          alert("Form is saved");
+        });
+
+        $("#txt1").change(function () {
+          $("#div1").css("background-color", "green");
+        });
+
+        $("#txt1").focus(function () {
+          $(this).css("background-color", "blue");
+        });
+        $("#txt1").blur(function () {
+          $(this).css("background-color", "white");
+        });
+        $("#password1").focusin(function () {
+          $(this).css("background-color", "red");
+        });
+
+        $("#password1").focusout(function () {
+          $(this).css("background-color", "blue");
+        });
+
+        $("h4").select(function () {
+          $(this).css("color", "red");
+        });
+
+        $("#btnClick").click(function () {
+          $("h4").trigger("select");
+        });
+
+        var x = 0;
+        $("#div1").scroll(function () {
+          $("#p1").text(x++);
+        });
+
+        $(window).resize(function () {
+          var width = $(window).width();
+          var height = $(window).height();
+          $("#WidthHeight").text("Width:" + width + " " + "Height:" + height);
+        });
+      });
+    </script>
+  </body>
+</html>

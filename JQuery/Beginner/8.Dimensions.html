@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>Dimensions</title>
+    <style>
+      #div1,#div2 {
+        border: 5px solid black;
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1"></div>
+
+    <div id="div2"></div>
+    <br /><br />
+    <button id="btn">Click</button>
+    <button id="btn2">Click2</button>
+
+
+    <script>
+      $(function () {
+        $("#btn").click(function () {
+          var a = $("#div1").width();
+          var b = $("#div1").height();
+
+          $("#div1").html("Width: " + a + "<br>Height: " + b);
+        });
+
+        $("#btn2").click(function(){
+            $("#div2").width(100)
+            $("#div2").height(200)
+        })
+
+
+      });
+    </script>
+  </body>
+</html>

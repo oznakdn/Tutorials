@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Projects/OnePage/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>One Page</title>
+  </head>
+  <body>
+    <!------------------------header-start------------------------------->
+    <header>
+      <!------------------------navbar-start------------------------------->
+      <nav>
+        <div class="container">
+          <div id="logo">
+            <a href="#" class="btk-akademi">
+              <img src="./image/logo.jpg" alt="" id="logo-image" />
+            </a>
+          </div>
+          <div id="menu">
+            <ul>
+              <li class="menu-item">
+                <a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#division-3-career"
+                  ><i class="fa-solid fa-user"></i> Career</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#division-1-main"
+                  ><i class="fa-solid fa-file-lines"></i> News</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"><i class="fa-solid fa-address-card"></i> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!------------------------navbar-end------------------------------->
+      <div class="image-header"></div>
+      <div class="theme-header">
+        <h1>BTK Akademi One Page</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+          porro.
+        </p>
+        <a href="#" class="btn-header">Daha Fazla...</a>
+      </div>
+    </header>
+    <!------------------------header-end------------------------------->
+
+    <!-----------------------main-start----------------------------------->
+    <main>
+      <!--section 1-->
+      <section id="division-1-main">
+        <div class="piece">
+          <h2>Ana Baslik</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat
+            placeat neque enim excepturi suscipit, obcaecati, necessitatibus
+            cumque ipsa, exercitationem voluptatum reiciendis dolorum voluptas
+            laudantium distinctio accusamus qui quibusdam autem! Nulla
+            laboriosam, expedita facere deserunt molestias veritatis quasi vero
+            amet.
+          </p>
+        </div>
+      </section>
+      <!--section 2-->
+      <section id="division-2-list">
+        <ul>
+          <li>
+            <div class="area">
+              <img src="./image/coding1.jpg" alt="" />
+              <div class="area-div">
+                <h3>Frontend</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, a.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="area">
+              <img src="./image/coding2.jpg" alt="" />
+              <div class="area-div">
+                <h3>Backend</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, nisi.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="area">
+              <img src="./image/coding3.jpg" alt="" />
+              <div class="area-div">
+                <h3>Web Services</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, numquam.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="area">
+              <img src="./image/coding4.jpg" alt="" />
+              <div class="area-div">
+                <h3>Database</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione, maxime?
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--section 3-->
+      <section id="division-3-career" class="clearfix">
+        <div id="left-main">
+          <img src="./image/csharp.png" alt="" />
+          <img src="./image/angular.png" alt="" /><br />
+          <img src="./image/jquery.png" alt="" />
+          <img src="./image/bootstrap.png" alt="" />
+        </div>
+        <div id="right-main">
+          <p>Fullstack</p>
+          <ul>
+            <li>.Net C#</li>
+            <li>Angular</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-----------------------main-end----------------------------------->
+    <div id="top">
+      <a href="#division-1-main"
+        ><i class="fa-solid fa-file-arrow-up"></i> Basa Don</a
+      >
+    </div>
+    <!-----------------------form-start----------------------------------->
+    <section id="form-email">
+      <form method="post">
+        <div class="form-group-all">
+          <div class="form-group">
+            <label for="fullName">Name</label><br>
+            <input
+              class="form-control"
+              type="text"
+              id="fullName"
+              name="fullName"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label><br>
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label><br>
+            <textarea
+              class="form-control"
+              name="message"
+              id="message"
+              cols="20"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <input type="button" value="Send">
+        </div>
+      </form>
+    </section>
+    <!-----------------------form-end----------------------------------->
+
+    <footer style="margin-top:150px;">
+      <div class="division-footer">
+        <a href="">BTK Akademi</a>
+        <p>Butun Haklar Saklidir. &copy;</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/060c23d79e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

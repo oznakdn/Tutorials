@@ -1,0 +1,14 @@
+Package Manager Console in Visual Studio Or PowerShell:
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Update-Package Microsoft.EntityFrameworkCore.Tools
+
+
+.NET Core CLI:
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+
+
+For using this tools:
+dotnet add package Microsoft.EntityFrameworkCore.Design 
+Or
+Install-Package Microsoft.EntityFrameworkCore.Design

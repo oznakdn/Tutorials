@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>JQuery UI</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"/>
+    <!-- Bootstrap JS -->
+    <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous">
+    </script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+    </script>
+    <!-- JQuery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <!-- JQuery UI JS-->
+    <script src="./Js/jquery-ui.min.js"></script>
+    <!-- JQuery UI CSS -->
+    <link rel="stylesheet" href="./Css/jquery-ui.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mt-5 offset-5">
+          <strong>
+            <a href="https://jqueryui.com/" target="_blank">
+              <img
+                src="data:image/png;base64,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"
+                style="max-width: 200px;"
+              />
+            </a><span>Click for JQuery UI!</span>
+          </strong>
+        </div>
+        <div class="row mt-5">
+          <h1 class="text-center text-success">For to use the JQuery UI</h1>
+          <div class="col-12 mt-2">
+            <span><img src="./img/Download the JQueryUI .png" style="max-width:400px ;"></span>
+            <span><img src="./img/Js and Css reference saving.png" class="mt-3" style="max-width:400px;"></span>
+            <span><img src="./img/Reference in head.png" class="mt-3" style="max-width:400px;"></span>
+
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+          <h1 class="text-center text-primary">Example of JQuery UI</h1>
+          </div>
+          <div class="col-12 offset-4">
+              <div id="div1" style="background-color:yellow; width: 400px; height: 300px;">
+                <div id="div2" style="background-color:green; width: 70px;margin:10px; padding: 10px;">
+                      <p id="p1" class="text-center"></p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script>
+      $(function(){
+          $("#div2").draggable({
+            //axis:"y" Sadece Y yonunde hareket eder
+            axis:"both", //Her yone hareket eder
+            containment:"parent", // ust ebeveny sinirlarinda kalir ya da containment:"#div1"
+            start:function(){          // Hareket basladiginda start yazar
+                $("#p1").html("<u>Start</u>").css("color","blue");
+                $("#div1").css("background-color","red");
+
+            },
+            stop:function(){    // Hareket sonlandiginda stop yazar
+              $("#p1").html("<u>Stop</u>").css("color","red");
+              $("#div1").css("background-color","blue")
+            },
+            end:setInterval(function(){  // 3 sn sonra hicbirsey yazmaz
+              $("#p1").html("");
+              $("#div1").css("background-color","yellow");
+            },3000),
+            cursor:"move" // mouse tipini degistirir
+
+
+
+          });
+      });
+
+    </script>
+
+   
+  </body>
+</html>

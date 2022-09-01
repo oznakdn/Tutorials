@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        .deneme{
+            width: 100%;
+            height: 150px;
+            margin-bottom: 15px;
+        }
+    </style>
+    <title>Fade</title>
+</head>
+<body>
+    <div id="div1" class="deneme" style="background-color: blue;"></div>
+    <div id="div2" class="deneme" style="background-color: red;"></div>
+    <div id="div3" class="deneme" style="background-color: green;"></div>
+
+    <br>
+
+    <button id="btn1">FadeOut</button>
+    <button id="btn2">FadeIn</button>
+    <button id="btn3">FadeToggle</button>
+    <button id="btn4">FadeTo</button>
+
+    
+    <script>
+        $(function(){
+
+            // fadeOut
+            $("#btn1").click(function(){
+                $("#div1").fadeOut("slow");
+                $("#div2").fadeOut("fast");
+                $("#div3").fadeOut(3000);
+
+            });
+
+            // fadeIn
+            $("#btn2").click(function(){
+                $("#div1").fadeIn("fast");
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+
+            });
+
+            // fadeToggle
+            $("#btn3").click(function(){
+                $("#div1").fadeToggle(1000);
+                $("#div2").fadeToggle(2000);
+                $("#div3").fadeToggle(3000);
+
+            });
+
+            // fadeTo
+            $("#btn4").click(function(){
+                $("#div1").fadeTo(1000, 0.2);
+                $("#div2").fadeTo(2000, 0.4);
+                $("#div3").fadeTo(3000, 0.6);
+
+            });
+
+        });
+    </script>
+</body>
+</html>

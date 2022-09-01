@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <title>Descendants (Cocuk)</title>
+    <style>
+        .class1 {
+          display: block;
+          border: 2px solid lightgray;
+          color: gray;
+          padding: 5px;
+          margin: 15px;
+          font-weight: bold;
+        }
+      </style>
+</head>
+<body>
+
+    <body>
+        <div id="div1" class="class1">
+          div (5.Ebeveny) Id: #div1
+          <div id="div2" class="class1">
+            div (4.Ebeveyn) Id: #div2
+            <ul class="class1">
+                ul (3.Ebeveyn)
+              <li class="class1">
+                li (2.Ebeveyn)
+                <p class="class1">
+                  p (1.Ebeveyn)
+                  <span class="class1">span</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+    
+          <div id="div3" class="class1">
+            div Id: #div3
+            <div id="div4" class="class1">
+                div Id: #div4
+            </div>
+          </div>
+          <h1 class="class1">h1</h1>
+        </div>
+    </div>
+
+    
+        <br />
+        <button id="btn">Click</button>
+        <button id="btn2">Click2</button>
+        <button id="btn3">Click3</button>
+        <button id="btn4">Click4</button>
+    
+
+
+
+    <script>
+        $(function(){
+
+            // Cocuklarin tumu
+            $("#btn").click(function(){
+                $("#div1").children().css(
+                    {
+                        "border":"2px solid red",
+                        "color":"red"
+                    }
+                )
+            });
+
+            // Sadece parametre olarak secilen cocuk veya cocuklar
+            $("#btn2").click(function(){
+                $("#div1").children("h1, #div3").css(
+                    {
+                        "border":"2px solid blue",
+                        "color":"blue"
+                    }
+                )
+            });
+
+            // Istenen bir child elemana ulasmak icin
+            $("#btn3").click(function(){
+                $("#div1").find("#div4").css(
+                    {
+                        "border":"2px solid yellow",
+                        "color":"yellow"
+                    }
+                )
+            });
+
+
+        });
+    </script>
+</body>
+</html>

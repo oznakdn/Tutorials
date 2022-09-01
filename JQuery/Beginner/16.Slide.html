@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <style>
+        .deneme{
+            width: 100%;
+            height: 150px;
+            margin-bottom: 15px;
+        }
+    </style>
+    <title>Fade</title>
+</head>
+<body>
+    <div id="div1" class="deneme" style="background-color: blue;"></div>
+    
+    <br>
+
+    <button id="btn1">slideUp</button>
+    <button id="btn2">slideDown</button>
+    <button id="btn3">slideToggle</button>
+   
+
+    
+    <script>
+        $(function(){
+
+            // slideUp
+            $("#btn1").click(function(){
+                $("#div1").slideUp("slow");
+            });
+
+            // slideDown
+            $("#btn2").click(function(){
+                $("#div1").slideDown("fast");
+            });
+
+            // slideToggle
+            $("#btn3").click(function(){
+                $("#div1").slideToggle(2000);
+            });
+
+        });
+    </script>
+</body>
+</html>

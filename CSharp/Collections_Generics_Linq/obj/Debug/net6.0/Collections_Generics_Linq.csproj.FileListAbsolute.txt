@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\bin\Debug\net6.0\Collections_Generics_Linq.exe
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\bin\Debug\net6.0\Collections_Generics_Linq.deps.json
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\bin\Debug\net6.0\Collections_Generics_Linq.runtimeconfig.json
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\bin\Debug\net6.0\Collections_Generics_Linq.dll
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\bin\Debug\net6.0\Collections_Generics_Linq.pdb
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.AssemblyInfo.cs
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.dll
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\refint\Collections_Generics_Linq.dll
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.pdb
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\Collections_Generics_Linq.genruntimeconfig.cache
+C:\Users\USER\Desktop\CSharp\Collections_Generics_Linq\obj\Debug\net6.0\ref\Collections_Generics_Linq.dll
