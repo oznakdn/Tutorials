@@ -30,7 +30,7 @@ namespace _06_RelationalTerms.Crud.Create
             employee.DepartmentId = departmentId;
             using var context = new AppDbContext();
             context.Employees.Add(employee);
-            context.SaveChanges();
+            //context.SaveChanges();
         }
     }
 }

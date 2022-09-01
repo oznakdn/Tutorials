@@ -47,7 +47,7 @@ namespace _06_RelationalTerms.Crud.Create
             using var context = new AppDbContext();
             var project = context.Projects.SingleOrDefault(x => x.Id == projectId);
             context.Projects.Add(project);
-            context.SaveChanges();
+            //context.SaveChanges();
         }
     }
 }

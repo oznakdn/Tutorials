@@ -1264,11 +1264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Tutorials\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
       "projectName": "06-RelationalTerms",
-      "projectPath": "C:\\Users\\USER\\Desktop\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Tutorials\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Tutorials\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

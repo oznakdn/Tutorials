@@ -1,5 +1,6 @@
 ﻿
 using _06_RelationalTerms.Crud.Create;
+using _06_RelationalTerms.Crud.Update;
 using _06_RelationalTerms.Entities;
 
 
@@ -37,6 +38,16 @@ oneToOneCreate.AddContaxtWithEmployee(new Contact
 });
 
 #endregion
+#region Update
+var oneToOneUpdate = new OneToOneUpdate();
+//Principal Entity
+var contact = new Contact();
+contact.Email = "gezer@mail.com";
+contact.Address="Merkez meydan";
+contact.Phone = "05153435456";
+oneToOneUpdate.UpdateEmployeeContact2(2,contact);
+#endregion
+
 #endregion
 
 #region One To Many
