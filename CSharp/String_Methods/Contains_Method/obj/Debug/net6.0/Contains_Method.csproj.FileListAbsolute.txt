@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\bin\Debug\net6.0\Contains_Method.exe
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\bin\Debug\net6.0\Contains_Method.deps.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\bin\Debug\net6.0\Contains_Method.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\bin\Debug\net6.0\Contains_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\bin\Debug\net6.0\Contains_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\refint\Contains_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\Contains_Method.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Contains_Method\obj\Debug\net6.0\ref\Contains_Method.dll

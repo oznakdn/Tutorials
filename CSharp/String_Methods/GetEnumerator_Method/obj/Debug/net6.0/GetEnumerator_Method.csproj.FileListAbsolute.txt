@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\bin\Debug\net6.0\GetEnumerator_Method.exe
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\bin\Debug\net6.0\GetEnumerator_Method.deps.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\bin\Debug\net6.0\GetEnumerator_Method.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\bin\Debug\net6.0\GetEnumerator_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\bin\Debug\net6.0\GetEnumerator_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\refint\GetEnumerator_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\GetEnumerator_Method.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\GetEnumerator_Method\obj\Debug\net6.0\ref\GetEnumerator_Method.dll

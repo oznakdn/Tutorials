@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\bin\Debug\net6.0\Format_Method.exe
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\bin\Debug\net6.0\Format_Method.deps.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\bin\Debug\net6.0\Format_Method.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\bin\Debug\net6.0\Format_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\bin\Debug\net6.0\Format_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\refint\Format_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\Format_Method.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\Format_Method\obj\Debug\net6.0\ref\Format_Method.dll

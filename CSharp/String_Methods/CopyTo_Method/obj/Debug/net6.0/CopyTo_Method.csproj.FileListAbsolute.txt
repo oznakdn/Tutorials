@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\bin\Debug\net6.0\CopyTo_Method.exe
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\bin\Debug\net6.0\CopyTo_Method.deps.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\bin\Debug\net6.0\CopyTo_Method.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\bin\Debug\net6.0\CopyTo_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\bin\Debug\net6.0\CopyTo_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\refint\CopyTo_Method.dll
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.pdb
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\CopyTo_Method.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\String_Methods\CopyTo_Method\obj\Debug\net6.0\ref\CopyTo_Method.dll
