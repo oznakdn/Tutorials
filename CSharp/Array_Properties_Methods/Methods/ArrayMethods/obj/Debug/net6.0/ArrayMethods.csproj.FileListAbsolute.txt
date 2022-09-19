@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\bin\Debug\net6.0\ArrayMethods.exe
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\bin\Debug\net6.0\ArrayMethods.deps.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\bin\Debug\net6.0\ArrayMethods.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\bin\Debug\net6.0\ArrayMethods.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\bin\Debug\net6.0\ArrayMethods.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\refint\ArrayMethods.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ArrayMethods.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Methods\ArrayMethods\obj\Debug\net6.0\ref\ArrayMethods.dll

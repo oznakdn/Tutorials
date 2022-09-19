@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\bin\Debug\net6.0\ArrayProperties.exe
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\bin\Debug\net6.0\ArrayProperties.deps.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\bin\Debug\net6.0\ArrayProperties.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\bin\Debug\net6.0\ArrayProperties.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\bin\Debug\net6.0\ArrayProperties.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\refint\ArrayProperties.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ArrayProperties.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Array_Properties_Methods\Properties\ArrayProperties\obj\Debug\net6.0\ref\ArrayProperties.dll
