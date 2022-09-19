@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\bin\Debug\net6.0\Tuple_Types.exe
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\bin\Debug\net6.0\Tuple_Types.deps.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\bin\Debug\net6.0\Tuple_Types.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\bin\Debug\net6.0\Tuple_Types.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\bin\Debug\net6.0\Tuple_Types.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\refint\Tuple_Types.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\Tuple_Types.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\CSharp\Tuple_Types\obj\Debug\net6.0\ref\Tuple_Types.dll
