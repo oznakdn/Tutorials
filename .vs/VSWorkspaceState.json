@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSharp\\Array_Properties_Methods",
-    "\\CSharp\\Array_Properties_Methods\\Methods",
-    "\\CSharp\\Array_Properties_Methods\\Methods\\ArrayMethods"
+    "\\CSharp"
   ],
-  "SelectedNode": "\\CSharp",
+  "SelectedNode": "\\CSharp\\Method_Parameters",
   "PreviewInSolutionExplorer": false
 }
