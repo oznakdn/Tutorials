@@ -19,6 +19,10 @@
                                dotnet ef database update
                                dotnet ef migrations remove
 
+                               Birden fazla context sınıfı için
+                               dotnet ef migrations add Init --context IdentityContext --startup-project ../../Client/CrmApp.WebMvc
+                               dotnet ef database update --context IdentityContext --startup-project ../../Client/CrmApp.WebMvc
+
 */
 
 using _02_CodeFirst.Data;

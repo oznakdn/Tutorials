@@ -1,0 +1,19 @@
+
+
+---------- S.O.L.I.D prensipleri ----------
+
+S => SRP olarak da bilinen Single Responsibility Principle (Tek Sorumluluk Prensibi).
+O => OCP olarak da bilinen Open-Closed Principle (Açık-Kapalı Prensibi).
+L => LSP olarak da bilinen Liskov Substitution Principle (Liskov İkame Prensibi).
+I => ISP olarak da bilinen Interface Segregation Principle (Arayüz Ayırımı Prensibi).
+D => DIP olarak da bilinen Dependency Inversion Principle (Bağımlılık Tersine Çevirme Prensibi). 
+
+
+---------- SOLID Tasarım İlkelerini kullanmanın avantajlarını; ----------
+
+- Kod karmaşıklığını azaltır,
+- Okunabilirliği, genişletilebilirliği ve bakımı artırır,
+- Hatayı azaltır ve Yeniden Kullanılabilirliği sağlar,
+- Daha iyi test edilebilirlik sağlar,
+- Sıkı bağlantıyı azaltır
+

@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\bin\Debug\net6.0\2-OCP.exe
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\bin\Debug\net6.0\2-OCP.deps.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\bin\Debug\net6.0\2-OCP.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\bin\Debug\net6.0\2-OCP.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\bin\Debug\net6.0\2-OCP.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\refint\2-OCP.dll
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.pdb
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\2-OCP.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\Tutorials\SOLID\2-OCP\obj\Debug\net6.0\ref\2-OCP.dll
