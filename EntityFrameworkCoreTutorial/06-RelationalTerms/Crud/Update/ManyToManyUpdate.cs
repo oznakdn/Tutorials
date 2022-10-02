@@ -10,14 +10,15 @@ namespace _06_RelationalTerms.Crud.Update
         public void EmployeeProjectUpdate(int employeeId, Project updateProject)
         {
             using var context = new AppDbContext();
-            var employee = context.Employees.Include(e=>e.Projects).FirstOrDefault(e=>e.Id == employeeId);
+            updateProject.Id = 2;
+            var employee = context.Employees.Where(e => e.Id == employeeId).Include(e => e.Projects).FirstOrDefault();
 
-            var project =employee.Projects.FirstOrDefault(p=>p.Id == updateProject.Id);
+            var project = employee.Projects.FirstOrDefault(p => p.Id == updateProject.Id);
             project.Title = updateProject.Title;
             project.StartDate = updateProject.StartDate;
             project.EndDate = updateProject.EndDate;
             context.SaveChanges();
 
-        } 
+        }
     }
 }

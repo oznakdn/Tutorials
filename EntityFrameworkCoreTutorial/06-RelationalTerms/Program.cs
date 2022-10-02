@@ -8,7 +8,9 @@ using _06_RelationalTerms.Entities;
 #region One To One
 var oneToOneCreate = new OneToOneCreate();
 #region Create
+
 //Principal Entity
+/*
 oneToOneCreate.AddEmployeeWithContact(
    new Employee
    {
@@ -22,8 +24,10 @@ oneToOneCreate.AddEmployeeWithContact(
            Address = "Merkez No:20"
        }
    });
+   */
 
 // Dependent Entity
+/*
 oneToOneCreate.AddContaxtWithEmployee(new Contact
 {
     Email = "semiharslan@mail.com",
@@ -36,24 +40,27 @@ oneToOneCreate.AddContaxtWithEmployee(new Contact
         DepartmentId = 1
     }
 });
+*/
 
 #endregion
 #region Update
 var oneToOneUpdate = new OneToOneUpdate();
 //Principal Entity
+/*
 var contact = new Contact();
 contact.Email = "gezer@mail.com";
 contact.Address="Merkez meydan";
 contact.Phone = "05153435456";
 oneToOneUpdate.UpdateEmployeeContact2(2,contact);
+*/
 #endregion
-
 #endregion
 
 #region One To Many
 var oneToManyCreate = new OneToManyCreate();
 #region Create
 // Dependent entity ile
+/*
 oneToManyCreate.AddEmployeeWithDepartment(
     new Employee
     {
@@ -65,8 +72,10 @@ oneToManyCreate.AddEmployeeWithDepartment(
         }
     }
 );
+*/
 
 //Principal entity ile
+/*
 oneToManyCreate.AddDepartmentWithEmployess(
     new Department
     {
@@ -79,15 +88,19 @@ oneToManyCreate.AddDepartmentWithEmployess(
         }
     }
 );
+*/
 
 //ForeignKey ile
+/*
 var employee = new Employee();
 employee.FullName = "Naciye Sever";
 employee.Gender = true;
 oneToManyCreate.AddEmployee(employee,2);
+*/
 #endregion
 #region Update
 OneToManyUpdate update = new();
+/*
 var departments = update.GetDepartments();
 foreach (var item in departments)
 {
@@ -100,12 +113,15 @@ update.EmployeeDepartmentUpdate(1, 2);
 var oneToManyUpdate = new OneToManyUpdate();
 oneToManyUpdate.DepartmentEmployeeUpdate(1, new Employee());
 
+*/
+
 #endregion
 #endregion
 
 #region Many To Many
 var manyToManyCreate = new ManyToManyCreate();
 #region Create
+/*
  manyToManyCreate.AddNewEmployeeWithProjects(new Employee
  {
     FullName = "Berke Okur",
@@ -117,8 +133,9 @@ var manyToManyCreate = new ManyToManyCreate();
         new Project {Title = "Project5", StartDate=new DateTime(2021,11,9),EndDate = new DateTime(2025,12,31)}
     }
  });
+ */
 
-
+/*
  manyToManyCreate.AddProjectToEmployee(10,1);
  // With fluent Api
  var project = new Project
@@ -132,12 +149,14 @@ var manyToManyCreate = new ManyToManyCreate();
     }
     
  };
- manyToManyCreate.AddProjectEmployeeWithFluentApi(5);
+ */
+
+//manyToManyCreate.AddProjectEmployeeWithFluentApi(5);
 #endregion
 #region Update
 
 var manyToManyUpdate = new ManyToManyUpdate();
-manyToManyUpdate.EmployeeProjectUpdate(1,new Project{Title="Management Project", StartDate = new DateTime(2022,02,12), EndDate=new DateTime(2023,02,12)});
+manyToManyUpdate.EmployeeProjectUpdate(2, new Project { Id = 2, Title = "Management Project", StartDate = new DateTime(2022, 02, 12), EndDate = new DateTime(2023, 02, 12) });
 #endregion 
 #endregion
 
