@@ -86,8 +86,21 @@ employee.FullName = "Naciye Sever";
 employee.Gender = true;
 oneToManyCreate.AddEmployee(employee,2);
 #endregion
+#region Update
+OneToManyUpdate update = new();
+var departments = update.GetDepartments();
+foreach (var item in departments)
+{
+    Console.WriteLine($"ID: {item.Id} Department: {item.Name}");
+}
 
+update.EmployeeDepartmentUpdate(1, 2);
 
+//
+var oneToManyUpdate = new OneToManyUpdate();
+oneToManyUpdate.DepartmentEmployeeUpdate(1, new Employee());
+
+#endregion
 #endregion
 
 #region Many To Many
@@ -121,7 +134,11 @@ var manyToManyCreate = new ManyToManyCreate();
  };
  manyToManyCreate.AddProjectEmployeeWithFluentApi(5);
 #endregion
-    
+#region Update
+
+var manyToManyUpdate = new ManyToManyUpdate();
+manyToManyUpdate.EmployeeProjectUpdate(1,new Project{Title="Management Project", StartDate = new DateTime(2022,02,12), EndDate=new DateTime(2023,02,12)});
+#endregion 
 #endregion
 
 

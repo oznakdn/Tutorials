@@ -20,7 +20,7 @@ namespace _06_RelationalTerms.Crud.Update
         public void UpdateEmployeeContact2(int employeeId, Contact contact)
         {
             using var context = new AppDbContext();
-            var employee = context.Employees.Include(e => e.Contact).FirstOrDefault(e => e.Id == employeeId);
+            var employee = context.Employees.Where(e=>e.Id == employeeId).Include(e=>e.Contact).FirstOrDefault();
             context.Contacts.Remove(employee.Contact);
             context.Contacts.Add(new Contact
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ttyz4jmAeu0RpwtF4wtB48M5hj2b74xwbNDet3Fl9WeMFjmgvrFuzdKFSAnmioaB4X4mc0zCKug0sXGZZCvD6w==",
+  "dgSpecHash": "6o/IKP4obPyJ9ZjpUfqUGzIzShHmmsVVD305c9hZU0Ecy6530r91wYWoCLfo0JHcq8lG3r4ebs3ZY//yDQd7qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Tutorials\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\EntityFrameworkCoreTutorial\\06-RelationalTerms\\06-RelationalTerms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.8\\microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
