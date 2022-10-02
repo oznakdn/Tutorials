@@ -1,0 +1,12 @@
+
+     Unit Test ve Avantajlari
+---------------------------------
+* Bir uygulamadaki tum parcaların ayrı ayrı test edilmesidir.
+* Bu sayede uygulamadaki metotların davranişlarını önceden görerek müdahale edebilmekteyiz.
+* Erken uyarı sistemi olması açısından çok önemlidir.
+
+  Unit Test Frameworkleri
+---------------------------------
+* MSTest
+* NUnit
+* XUnit

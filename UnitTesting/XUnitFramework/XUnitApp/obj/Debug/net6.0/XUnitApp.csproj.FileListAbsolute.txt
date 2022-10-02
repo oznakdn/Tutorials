@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\bin\Debug\net6.0\XUnitApp.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\bin\Debug\net6.0\XUnitApp.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\bin\Debug\net6.0\XUnitApp.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\refint\XUnitApp.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\XUnitApp.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\XUnitFramework\XUnitApp\obj\Debug\net6.0\ref\XUnitApp.dll
