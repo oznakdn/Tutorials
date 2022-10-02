@@ -1,0 +1,5 @@
+Test Metodu Isimlendirme Kurallari 
+* Tutarli ve aciklamali olmalidir. Metodun ne yaptigi anlasilmalidir.
+* Uc parcaya ayrilir
+  Test edilecek metodun ismi_Test altindaki durum_Test sonucunda beklenmesi gereken davranis
+  Test edilecek Metod _ Kosul/Durum _ beklenen sonuc

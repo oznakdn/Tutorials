@@ -1,0 +1,23 @@
+************************* Assert Metotlari *************************
+---------------------------------------------------------------------
+
+1) Assert.Equal(beklenen,gerceklesen) = Gerceklesen deger ile beklenen degerin esit olmasi durumunda test basarili olmaktadir.
+2) Assert.Contains(beklenen, gerceklesen) = Gerceklesen deger icerisinde beklenen degerin bulunmasi durumunda test basarili olmaktadir.
+3) Assert.DoesNotContain(beklenen, gerceklesen) = Gerceklesen deger icerisinde beklenen degerin bulunmamasi durumunda test basarili olmaktadir.
+4) Assert.True - Assert.False =True metodunda Gerceklesen deger dogru ise test basarili , False metodunda deger yanlis ise test basarili olmaktadir.
+5) Assert.Matches =Gerceklesen Regex degeri ile beklenen regex degeri ayni ise test basarili olmaktadir.
+6) Assert.DoesNotMatch =Gerceklesen Regex degeri ile beklenen regex degeri ayni degil ise test basarili olmaktadir.
+7) Assert.StartsWith = Gerceklesen deger, belirtilen deger ile baslarsa test basarili olur.
+8) Assert.EndsWith = Gerceklesen deger, belirtilen deger ile biterse test basarili olur.
+8) Assert.EndsWith = Gerceklesen deger, belirtilen deger ile biterse test basarili olur.
+9) Assert.Empty = Gerceklesen deger bos ise test basarili olur.
+10) Assert.NotEmpty = Gerceklesen deger dolu ise test basarili olur.
+11) Assert.InRange = Gerceklesen degerin belirli bir aralikta olmasi durumunda test basarili olur.
+12) Assert.NotInRange = Gerceklesen degerin belirli bir aralikta olmamasi durumunda test basarili olur.
+13) Assert.Single = Belirtilmis olan Array veya Collection'in icerisinde tek eleman varsa test basarili olur.
+14) Assert.IsType = Gerceklesen degerin verilen tipte olmasi durumunda test basarili olur.
+15) Assert.IsNotType = Gerceklesen degerin verilen tipte olmamasi durumunda test basarili olur.
+16) Assert.IsAssignableFrom = Bir tipin belirtilen tipe referans verilip verilmedigini (inherit edilip edilmedigi) test eder. Verilebiliyorsa test basarili olur.
+17) Assert.Null = Gerceklesen deger null ise test basarili olur.
+18) Assert.NotNull = Gerceklesen deger null degil ise test basarili olur.
+
