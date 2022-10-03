@@ -1,0 +1,17 @@
+------------------ Moq ------------------
+
+****** Nedir? ******
+Projemizdeki class ve interface'leri taklit eden, davranislarini test etmemizi saglayan bir framework dur.
+
+****** Gereklilikler Nelerdir? ******
+- Ana projede bazi prensiperin uygulanmasi gerekir
+- Dependency Injection kullaniliyor olmasi yada abstraction uygulaniyor olmasi gerekir.
+
+****** Yuklenmesi Gereken Paket ******
+<PackageReference Include="Moq" Version="" />
+
+****** Moq Metotlari ******
+- Verify() = Bir metodun calisip calismadigini test etmek icin kullanilir.
+- Throws () = Bir metod uzerinden hata firlatmak icin kullanilir.
+- callback() = Bir metod uzerinden callback calistirmak icin kullanilir.
+- Is.IsAny<type>() = metot parametre tipi belirlemek icin kullanilir.

@@ -1,0 +1,12 @@
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\bin\Debug\net6.0\MoqApp.deps.json
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\bin\Debug\net6.0\MoqApp.dll
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\bin\Debug\net6.0\MoqApp.pdb
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.csproj.AssemblyReference.cache
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.AssemblyInfoInputs.cache
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.AssemblyInfo.cs
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.csproj.CoreCompileInputs.cache
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.dll
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\refint\MoqApp.dll
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\MoqApp.pdb
+c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\MoqFramework\MoqApp\obj\Debug\net6.0\ref\MoqApp.dll
