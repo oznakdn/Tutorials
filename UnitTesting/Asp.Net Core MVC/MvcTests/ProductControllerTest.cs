@@ -291,7 +291,7 @@ namespace MvcTests
             // Controller Delete metodu
             var result = await _controller.Delete(productId);
 
-            _mock.Verify(p => p.Delete(existProduct), Times.Once());
+            _mock.Verify(p => p.Delete(It.IsAny<Product>()), Times.Once());
         }
 
         [Theory]
