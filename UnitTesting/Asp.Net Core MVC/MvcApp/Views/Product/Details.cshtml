@@ -1,0 +1,41 @@
+@model MvcApp.Entity.Product
+
+<style>
+    #btnColor {
+        height: 100px;
+        width: 330px;
+    }
+</style>
+<div class="row">
+    <div class="col-8 offset-4">
+        <div class="card" style="width: 40rem;">
+            <h3 class="text-center">@Model.ProductName Details</h3>
+            <div class="col-6 offset-3">
+                <button id="btnColor" value="@Model.Color"></button>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Price: @Model.Price</p>
+                <p class="card-text">Stock: @Model.Stock</p>
+                <a asp-action="Index" class="btn btn-secondary">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function ()
+    {
+        let color = $("#btnColor").val();
+        $("#btnColor").css("background-color", `${color}`);
+        $("#btnColor").mouseover(function ()
+        {
+            $(this).text(color);
+        });
+        $("#btnColor").mouseleave(function ()
+        {
+            $(this).text("");
+        });
+
+    });
+</script>

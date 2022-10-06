@@ -1,0 +1,42 @@
+@model MvcApp.Entity.Product
+
+@{
+    ViewData["Title"] = "EditProduct";
+}
+
+<div class="row">
+    <h3 class="text-center">Edit Product</h3>
+    <div class="col-8 offset-4">
+        <form method="post" asp-action="Edit" class="w-75">
+            <div class="form-group">
+                <label asp-for="ProductName" class="form-label"></label>
+                <input type="text" asp-for="ProductName" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="form-label"></label>
+                <input type="text" asp-for="Price" id="priceValue" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock" class="form-label"></label>
+                <input type="number" asp-for="Stock" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="Color" class="form-label"></label>
+                <input type="text" asp-for="Color" id="colorValue" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-warning">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function ()
+    {
+        let color = $("#colorValue").val();
+        $("#colorValue").css("background-color", `${color}`);
+        console.log(color);
+    });
+</script>
