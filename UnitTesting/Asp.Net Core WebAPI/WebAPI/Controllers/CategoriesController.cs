@@ -26,6 +26,7 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> GetCategory(string id)
         {
             var result = await categoryService.GetCategory(id);
+            if (result is null) return NotFound("Category not found!");
             return Ok(result);
         }
 
@@ -53,10 +54,10 @@ namespace WebAPI.Controllers
             if (ModelState.IsValid)
             {
                 await categoryService.UpdateCategory(model);
-                return Ok(model);
+                return CreatedAtAction(nameof(GetCategory), new { id = model.Id }, model);
             }
 
-            return BadRequest();
+            return BadRequest("Information is invalid!");
         }
 
         [HttpDelete("{id}")]

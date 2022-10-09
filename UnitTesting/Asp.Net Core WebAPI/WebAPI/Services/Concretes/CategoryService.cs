@@ -45,10 +45,10 @@ namespace WebAPI.Services.Concretes
 
             var category = await categoryRepository.GetByIdAsync(categoryId, c => c.Products);
 
-            if (category is null)
-            {
-                throw new NotFoundException("Category not found!");
-            }
+            // if (category is null)
+            // {
+            //     throw new NotFoundException("Category not found!");
+            // }
             GetCategoyProductsDto categoryDto = new()
             {
                 Id = category.Id.ToString(),

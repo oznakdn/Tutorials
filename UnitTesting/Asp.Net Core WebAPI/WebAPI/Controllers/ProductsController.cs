@@ -25,6 +25,8 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProduct(string id)
         {
+            if (id == null) return BadRequest();
+
             var result = await _productService.GetProductById(id);
             if (result is null)
             {
@@ -36,8 +38,11 @@ namespace WebAPI.Controllers
         [HttpGet("{categoryId}")]
         public async Task<IActionResult> GetProductsByCategory(string categoryId)
         {
+            if (categoryId == null) return BadRequest();
             var result = await _productService.GetProductsByCategoryId(categoryId);
-            return Ok(result);
+
+            if (result != null) return Ok(result);
+            return NotFound();
         }
 
 

@@ -8,6 +8,7 @@ namespace WebAPI.Repositories.Concretes
     {
         public ProductRepository(AppDbContext context) : base(context)
         {
+            
         }
     }
 }
