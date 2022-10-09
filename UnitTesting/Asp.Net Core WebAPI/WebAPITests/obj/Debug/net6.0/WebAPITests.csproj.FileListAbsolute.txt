@@ -137,3 +137,4 @@ c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\Asp.Net Core WebAPI\Web
 c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\Asp.Net Core WebAPI\WebAPITests\obj\Debug\net6.0\WebAPITests.pdb
 c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\Asp.Net Core WebAPI\WebAPITests\obj\Debug\net6.0\WebAPITests.genruntimeconfig.cache
 c:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\Asp.Net Core WebAPI\WebAPITests\obj\Debug\net6.0\ref\WebAPITests.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\UnitTesting\Asp.Net Core WebAPI\WebAPITests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

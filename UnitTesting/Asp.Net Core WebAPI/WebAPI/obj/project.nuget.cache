@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iD0tH9kxarVNHtgT3tOP3ty7iTBAb8ven/pjWsXbr2Sn8eIfi2mgpVSl0cwEZgtJ81dNsjeI3OSFSbQuQ49VwQ==",
+  "dgSpecHash": "U8QXgRnRpT7l1K9qeid+AYhJ8cCBcsiSMeROcNaPmPInf5ZBIr+fh/XsqjSeRL3yquD3xkWqGabxsDm0Yb1OQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\UnitTesting\\Asp.Net Core WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.8\\microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.8\\microsoft.entityframeworkcore.inmemory.6.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\6.0.8\\microsoft.entityframeworkcore.proxies.6.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.8\\microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.8\\microsoft.entityframeworkcore.sqlite.6.0.8.nupkg.sha512",

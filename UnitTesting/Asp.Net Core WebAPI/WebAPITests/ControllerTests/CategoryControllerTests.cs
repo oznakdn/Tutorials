@@ -4,7 +4,7 @@ using WebAPI.Controllers;
 using WebAPI.Dtos.CategoryDtos;
 using WebAPI.Services.Contracts;
 
-namespace WebAPITests
+namespace WebAPITests.ControllerTests
 {
     public class CategoryControllerTests
     {

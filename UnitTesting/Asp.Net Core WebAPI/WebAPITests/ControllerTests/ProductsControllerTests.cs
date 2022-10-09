@@ -2,10 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using WebAPI.Controllers;
 using WebAPI.Dtos.ProductDtos;
-using WebAPI.Entities;
 using WebAPI.Services.Contracts;
 
-namespace WebAPITests
+namespace WebAPITests.ControllerTests
 {
     public class ProductsControllerTests
     {
@@ -62,14 +61,11 @@ namespace WebAPITests
         [Fact]
         public async Task GetProducts_ReturnNotNull()
         {
-            // Arrange
-            var products = _productsDto.ToList();
-
+            
             // Act
-            _mockProductService.Setup(p => p.GetProductsWithCategory()).ReturnsAsync(products);
+            
             var result = await _productsController.GetProducts();
-
-
+           
             // Assert
             Assert.NotNull(result);
         }
@@ -81,7 +77,7 @@ namespace WebAPITests
             var products = _productsDto.ToList();
 
             // Act
-            _mockProductService.Setup(p => p.GetProductsWithCategory()).ReturnsAsync(products);
+           _mockProductService.Setup(p => p.GetProductsWithCategory()).ReturnsAsync(products);
             var result = await _productsController.GetProducts();
 
 
@@ -231,7 +227,7 @@ namespace WebAPITests
 
         }
 
-        
+
         #endregion
 
     }

@@ -2,7 +2,7 @@ using Moq;
 using WebAPI.Entities;
 using WebAPI.Repositories.Contracts;
 
-namespace WebAPITests
+namespace WebAPITests.RepositoryTests
 {
     public class ProductRepositoryTests
     {
