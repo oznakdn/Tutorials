@@ -17,7 +17,7 @@ namespace _06_RelationalTerms.Crud.Update
             using var context = new AppDbContext();
             var employee =context.Employees.Single(employee => employee.Id == employeeId);
             employee.DepartmentId = departmentId;
-            context.SaveChanges();
+            //context.SaveChanges();
         }
 
         public void DepartmentEmployeeUpdate(int departmentId, Employee updateEmployee)
@@ -30,7 +30,7 @@ namespace _06_RelationalTerms.Crud.Update
             employee.Gender = employee.Gender;
             
             context.Departments.Update(department);
-            context.SaveChanges();
+            //context.SaveChanges();
 
         }
     }

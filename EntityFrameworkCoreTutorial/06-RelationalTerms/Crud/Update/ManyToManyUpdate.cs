@@ -17,7 +17,7 @@ namespace _06_RelationalTerms.Crud.Update
             project.Title = updateProject.Title;
             project.StartDate = updateProject.StartDate;
             project.EndDate = updateProject.EndDate;
-            context.SaveChanges();
+            //context.SaveChanges();
 
         }
     }

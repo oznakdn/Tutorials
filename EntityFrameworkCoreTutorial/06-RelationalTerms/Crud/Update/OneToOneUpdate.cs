@@ -14,7 +14,7 @@ namespace _06_RelationalTerms.Crud.Update
             employee.Contact.Address = contact.Address == default || contact.Address == null ? employee.Contact.Address : contact.Address;
             employee.Contact.Email = contact.Email == default || contact.Email == null ? employee.Contact.Email : contact.Email;
             employee.Contact.Phone = contact.Phone == default || contact.Phone == null ? employee.Contact.Phone : contact.Phone;
-            context.SaveChanges();
+            //context.SaveChanges();
         }
 
         public void UpdateEmployeeContact2(int employeeId, Contact contact)
@@ -29,7 +29,7 @@ namespace _06_RelationalTerms.Crud.Update
                 Address = contact.Address,
                 Phone = contact.Phone
             });
-            context.SaveChanges();
+            //context.SaveChanges();
         }
 
         public void UpdateEmployeeContact3(int employeeId, Contact contact)
@@ -43,7 +43,7 @@ namespace _06_RelationalTerms.Crud.Update
                 Address = contact.Address == default || contact.Address == string.Empty || contact.Address == null ? default : contact.Address,
                 Phone = contact.Phone == default || contact.Phone == string.Empty || contact.Phone == null ? default : contact.Phone
             });
-            context.SaveChanges();
+           //context.SaveChanges();
         }
 
         // Dependent Entity Uzerinden Principal entitiy verisi eklemek

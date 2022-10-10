@@ -1,12 +1,8 @@
 ﻿
-using _06_RelationalTerms.Crud.Create;
-using _06_RelationalTerms.Crud.Update;
-using _06_RelationalTerms.Entities;
-
 
 
 #region One To One
-var oneToOneCreate = new OneToOneCreate();
+//var oneToOneCreate = new OneToOneCreate();
 #region Create
 
 //Principal Entity
@@ -44,7 +40,7 @@ oneToOneCreate.AddContaxtWithEmployee(new Contact
 
 #endregion
 #region Update
-var oneToOneUpdate = new OneToOneUpdate();
+//var oneToOneUpdate = new OneToOneUpdate();
 //Principal Entity
 /*
 var contact = new Contact();
@@ -54,10 +50,17 @@ contact.Phone = "05153435456";
 oneToOneUpdate.UpdateEmployeeContact2(2,contact);
 */
 #endregion
+#region Delete
+/*
+var oneToOneDelete = new OneToOneDelete();
+oneToOneDelete.DeleteContaxtWithEmployee(2);
+*/
+#endregion
 #endregion
 
+
 #region One To Many
-var oneToManyCreate = new OneToManyCreate();
+//var oneToManyCreate = new OneToManyCreate();
 #region Create
 // Dependent entity ile
 /*
@@ -99,8 +102,8 @@ oneToManyCreate.AddEmployee(employee,2);
 */
 #endregion
 #region Update
-OneToManyUpdate update = new();
 /*
+OneToManyUpdate update = new();
 var departments = update.GetDepartments();
 foreach (var item in departments)
 {
@@ -116,10 +119,18 @@ oneToManyUpdate.DepartmentEmployeeUpdate(1, new Employee());
 */
 
 #endregion
+#region Delete
+/*
+var oneToManyDelete = new OneToManyDelete();
+oneToManyDelete.DeleteDepartmentAllEmployees(4);
+oneToManyDelete.DeleteDepartmentOneEmployee(1,1);
+*/
+#endregion
 #endregion
 
+
 #region Many To Many
-var manyToManyCreate = new ManyToManyCreate();
+//var manyToManyCreate = new ManyToManyCreate();
 #region Create
 /*
  manyToManyCreate.AddNewEmployeeWithProjects(new Employee
@@ -137,7 +148,7 @@ var manyToManyCreate = new ManyToManyCreate();
 
 /*
  manyToManyCreate.AddProjectToEmployee(10,1);
- // With fluent Api
+     With fluent Api
  var project = new Project
  {
     Id=5,
@@ -154,10 +165,19 @@ var manyToManyCreate = new ManyToManyCreate();
 //manyToManyCreate.AddProjectEmployeeWithFluentApi(5);
 #endregion
 #region Update
-
+/*
 var manyToManyUpdate = new ManyToManyUpdate();
 manyToManyUpdate.EmployeeProjectUpdate(2, new Project { Id = 2, Title = "Management Project", StartDate = new DateTime(2022, 02, 12), EndDate = new DateTime(2023, 02, 12) });
+*/
 #endregion 
+#region Delete
+/*
+var manyToManyDelete = new ManyToManyDelete();
+manyToManyDelete.DeleteEmployeeProject(2,1);
+*/
+
+#endregion
+
 #endregion
 
 

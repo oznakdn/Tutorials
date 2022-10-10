@@ -34,13 +34,25 @@ namespace _06_RelationalTerms.Data
 
 
 
+            /* Fluent Api ile configure edilebilen ozellikler
+
+            Cascade Delete = Esas tablodan silinen veriyle bagli tabloda bulunan iliskili verilerin silinebilmesini saglar.
+            SetNull  = Esas tablodan silinen veriyle bagli tabloda bulunan iliskili verilere null degerinin atanmasini saglar. OneToOne da kullanilmaz.
+            Restrict = Esas tablodan veri silinmeye calisildiginda bagli tabloda iliskili veriler varsa silinebilmesini engeller.
+
+            */
+
+            // One To One
+            modelBuilder.Entity<Contact>()
+            .HasOne(c=>c.Employee).WithOne(e=>e.Contact)
+            .OnDelete(DeleteBehavior.Restrict);
 
             // One To Many
             modelBuilder.Entity<Department>()
             .HasMany(x => x.Employees).WithOne(x => x.Department)
-            .HasForeignKey(x => x.DepartmentId);
-
-
+            .HasForeignKey(x => x.DepartmentId)
+            .OnDelete(DeleteBehavior.SetNull);
+            
             // Many To Many
             modelBuilder.Entity<Employee>()
             .HasMany(x => x.Projects).WithMany(x => x.Employees);
