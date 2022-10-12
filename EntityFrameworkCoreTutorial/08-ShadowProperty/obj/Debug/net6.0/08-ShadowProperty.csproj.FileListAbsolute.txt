@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\bin\Debug\net6.0\08-ShadowProperty.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\bin\Debug\net6.0\08-ShadowProperty.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\bin\Debug\net6.0\08-ShadowProperty.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\bin\Debug\net6.0\08-ShadowProperty.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\bin\Debug\net6.0\08-ShadowProperty.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\refint\08-ShadowProperty.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\08-ShadowProperty.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\08-ShadowProperty\obj\Debug\net6.0\ref\08-ShadowProperty.dll
