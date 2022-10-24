@@ -38,5 +38,7 @@ namespace _09_EntityConfiguration.Entities
         //[Column("Department ID")]
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
+
+        public bool IsActice { get; set; }
     }
 }

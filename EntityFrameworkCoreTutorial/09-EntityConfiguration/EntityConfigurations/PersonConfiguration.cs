@@ -71,6 +71,14 @@ namespace _09_EntityConfiguration.EntityConfigurations
                     DepartmentId = 1
                 }
             );
+
+
+            // Bir entity'de PK alani olmasi istenmiyorsa
+            builder.HasNoKey();
+
+            // Belirli tablolara karsilik genel filtreler olusturmak
+            builder.HasQueryFilter(p => p.IsActice == true);
+
         }
     }
 }
