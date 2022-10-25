@@ -18,6 +18,7 @@ namespace _09_EntityConfiguration.EntityConfigurations
             // ForeignKey tanimlamak
             builder.HasOne(x => x.Department).WithMany(x => x.Persons).HasForeignKey(x => x.DepartmentId);
 
+
             // Colon isimlerini belirlemek
             builder.Property(p => p.Id).HasColumnName("Person ID");
 
@@ -78,6 +79,8 @@ namespace _09_EntityConfiguration.EntityConfigurations
 
             // Belirli tablolara karsilik genel filtreler olusturmak
             builder.HasQueryFilter(p => p.IsActice == true);
+
+
 
         }
     }

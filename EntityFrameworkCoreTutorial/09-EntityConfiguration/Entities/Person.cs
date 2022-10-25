@@ -13,7 +13,10 @@ namespace _09_EntityConfiguration.Entities
 
         //[Key]
         //[Column("Person ID")]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
+
         public int Id2 { get; set; }
         public long IdentityNumber { get; set; }
 
