@@ -23,6 +23,9 @@
                                dotnet ef migrations add Init --context IdentityContext --startup-project ../../Client/CrmApp.WebMvc
                                dotnet ef database update --context IdentityContext --startup-project ../../Client/CrmApp.WebMvc
 
+                               Project not found hatasinda
+                               dotnet ef migrations add Init --project "C:\Users\USER\Desktop\Practices\Asp.Net Core MVC\Advanced_AjaxCrud\Advanced_AjaxCrud"
+                               dotnet ef database update --project "C:\Users\USER\Desktop\Practices\Asp.Net Core MVC\Advanced_AjaxCrud\Advanced_AjaxCrud"
 */
 
 using _02_CodeFirst.Data;
@@ -59,10 +62,10 @@ context.SaveChanges();
 #endregion
 
 #region Update
-   var updateTeacher = context.Teachers.Where(x=>x.Id == 5).SingleOrDefault();
-   updateTeacher.Firstname = "Ali";
-   context.SaveChanges();
-   Console.WriteLine("Guncelleme basarili");
+var updateTeacher = context.Teachers.Where(x => x.Id == 5).SingleOrDefault();
+updateTeacher.Firstname = "Ali";
+context.SaveChanges();
+Console.WriteLine("Guncelleme basarili");
 #endregion
 
 #region GetAll
@@ -70,14 +73,14 @@ context.SaveChanges();
 var teachers = context.Teachers.ToList();
 foreach (Teacher teacher in teachers)
 {
-   Console.WriteLine($"{teacher.Firstname} {teacher.Lastname} {teacher.DateOfBird.Year} {teacher.Branch}");
+    Console.WriteLine($"{teacher.Firstname} {teacher.Lastname} {teacher.DateOfBird.Year} {teacher.Branch}");
 }
 Console.WriteLine("-------------------------");
 #endregion
 
 #region GetByFirstname
-var getTeacher = context.Teachers.Where(x=>x.Firstname == "Ali").SingleOrDefault();
-Console.WriteLine(getTeacher.Firstname +" "+ getTeacher.Lastname +" "+ getTeacher.DateOfBird.Year +" "+ getTeacher.Branch);
-   
+var getTeacher = context.Teachers.Where(x => x.Firstname == "Ali").SingleOrDefault();
+Console.WriteLine(getTeacher.Firstname + " " + getTeacher.Lastname + " " + getTeacher.DateOfBird.Year + " " + getTeacher.Branch);
+
 #endregion
 
