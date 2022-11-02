@@ -1,0 +1,37 @@
+<!--Property Binding - String Interpolation -->
+<button [disabled]="buttonDisabled">Property Binding</button>
+<input [value]="buttonDisabled" />
+<p [innerText]="buttonDisabled"></p>
+
+<br /><br />
+
+<!--Event Binding-->
+<button (click)="ButtonDisabledChange()">Event Binding</button>
+<button (click)="getEvent($event)">Event Binding2</button>
+<br>
+<input  [(ngModel)]="value" />
+<button (click)="getValue()">Event Binding3</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
