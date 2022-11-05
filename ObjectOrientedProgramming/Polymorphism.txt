@@ -1,0 +1,55 @@
+Polymorphism
+-------------
+Bir yapinin baska bir yapiya miras verilmesi durumunda ilgili yapidaki davranislarin , miras alinan yapida degisik sekilde kullanilabilmesidir.
+Bu da virtual yada abstract keywordleri ile mumkun olmaktadir.
+Ornegin;
+
+
+abstract class Arac
+{
+    public abstract string Go();
+    
+}
+
+class Otomobil: Arac
+{
+    public override string Go()
+    {
+        return "Karayolunda gider"
+    }
+}
+
+class Ucak: Arac
+{
+    public override string Go()
+    {
+        return "Gokyuzunde gider"
+    }
+}
+
+----------------------------------------
+class Arac
+{
+    public virtual string Go()
+    {
+        retunr "Denizde gider";
+    }
+    
+    
+}
+
+class Otomobil: Arac
+{
+    public override string Go()
+    {
+        return "Karayolunda gider"
+    }
+}
+
+class Ucak: Arac
+{
+    public override string Go()
+    {
+        return "Gokyuzunde gider"
+    }
+}

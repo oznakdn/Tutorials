@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\bin\Debug\net6.0\FirstPractice.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\bin\Debug\net6.0\FirstPractice.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\bin\Debug\net6.0\FirstPractice.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\bin\Debug\net6.0\FirstPractice.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\bin\Debug\net6.0\FirstPractice.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\refint\FirstPractice.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\FirstPractice.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\ObjectOrientedProgramming\FirstPractice\obj\Debug\net6.0\ref\FirstPractice.dll

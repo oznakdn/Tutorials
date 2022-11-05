@@ -1,0 +1,6 @@
+Abstraction
+-------------
+ Soyutlama projedeki karmaşıklığı azaltmayı sağlar. 
+ Birden fazla sınıfa kalıtım verecek olan en temel nesneler (Ornegin; Id, name v.s) soyutlama yöntemiyle oluştulur. 
+ Üretimde kullanilmazlar ancak diğer yapilarin kalıtım aldığı bir temel olustururlar. 
+ Kendisi somut olarak proje içerisinde yer almaz. Yani kendisinden nesne uretilemez.

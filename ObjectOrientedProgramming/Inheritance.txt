@@ -1,0 +1,3 @@
+Inheritance
+-----------
+Bir yapidaki ozelliklerin kalitim yoluyla baska bir yapiya aktarilmasidir.
