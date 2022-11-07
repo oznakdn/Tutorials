@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using MongoDB.Driver.Core.Misc;
 using Services.Catalog.Dtos.FeatureDtos;
+using Services.Catalog.Models;
 
 namespace Services.Catalog.MappingProfiles
 {

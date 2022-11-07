@@ -19,5 +19,6 @@ namespace Services.Catalog.Dtos.CourseDtos
         public string CategoryId { get; set; }
 
         public FeatureDto Feature { get; set; }
+
     }
 }

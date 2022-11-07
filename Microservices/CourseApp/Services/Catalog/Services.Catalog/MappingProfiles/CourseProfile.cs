@@ -8,7 +8,7 @@ namespace Services.Catalog.MappingProfiles
     {
         public CourseProfile()
         {
-            CreateMap<Course, CourseDto>().ReverseMap();
+            CreateMap<Course, CourseDto>();
             CreateMap<CourseCreateDto, Course>();
             CreateMap<CourseUpdateDto, Course>();
         }

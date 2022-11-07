@@ -9,7 +9,7 @@ namespace Services.Catalog.MappingProfiles
         public CategoryProfiles()
         {
             CreateMap<Category, CategoryDto>().ReverseMap();
-            CreateMap<CategoryCreateDto, Category>();
+            CreateMap<CategoryCreateDto, Category>().ReverseMap();
         }
     }
 }

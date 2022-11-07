@@ -1,5 +1,4 @@
-﻿using Services.Catalog.Dtos.CategoryDtos;
-using Services.Catalog.Dtos.FeatureDtos;
+﻿using Services.Catalog.Dtos.FeatureDtos;
 
 namespace Services.Catalog.Dtos.CourseDtos
 {
@@ -19,5 +18,6 @@ namespace Services.Catalog.Dtos.CourseDtos
         public string CategoryId { get; set; }
 
         public FeatureDto Feature { get; set; }
+
     }
 }

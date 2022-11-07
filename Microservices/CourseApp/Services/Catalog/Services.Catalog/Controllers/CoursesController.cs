@@ -32,8 +32,8 @@ namespace Services.Catalog.Controllers
         }
 
 
-        //[Route("api/[controller]/GetAllByUserId/{userId}")]
-        [HttpGet("{userId}", Name = "GetAllByUserIdAsync")]
+        [Route("api/[controller]/GetAllByUserId/{userId}")]
+        [HttpGet]
         public async Task<IActionResult> GetAllByUserIdAsync(string userId)
         {
             var response = await courseService.GetAllUserIdAsync(userId);

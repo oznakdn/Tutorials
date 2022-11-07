@@ -17,7 +17,7 @@ namespace Services.Catalog.Services
         {
             var client = new MongoClient(databaseSettings.ConnectionString);
             var dataBase = client.GetDatabase(databaseSettings.DatabaseName);
-            categoryCollection = dataBase.GetCollection<Category>(databaseSettings.CourseCollectionName);
+            categoryCollection = dataBase.GetCollection<Category>(databaseSettings.CategoryCollectionName);
             this.mapper = mapper;
         }
 
@@ -45,8 +45,8 @@ namespace Services.Catalog.Services
         public async Task<Response<CategoryDto>> CreateAsync(CategoryCreateDto createDto)
         {
             var category = mapper.Map<Category>(createDto);
-            var categoryDto = mapper.Map<CategoryDto>(category);
             await categoryCollection.InsertOneAsync(category);
+            var categoryDto = mapper.Map<CategoryDto>(category);
 
             return Response<CategoryDto>.Success(categoryDto, 200);
         }
