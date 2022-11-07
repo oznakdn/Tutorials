@@ -1,9 +1,22 @@
+using Microsoft.Extensions.Options;
+using Services.Catalog.Services;
+using Services.Catalog.Settings;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings"));
+builder.Services.AddSingleton<IDatabaseSettings>(sp =>
+{
+    return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
+});
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
