@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\bin\Debug\net6.0\CourseApp.Shared.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\bin\Debug\net6.0\CourseApp.Shared.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\bin\Debug\net6.0\CourseApp.Shared.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\refint\CourseApp.Shared.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\CourseApp.Shared.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Shared\CourseApp.Shared\obj\Debug\net6.0\ref\CourseApp.Shared.dll
