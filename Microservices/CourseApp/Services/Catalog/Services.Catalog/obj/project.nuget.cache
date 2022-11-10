@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+6tu+OphgwQbxHp3oyJYN/VsA8yFwDmVehbX/jKQ3Y4qaIREj7qfgkmgZxAYLtSbJauGrI8KgF9kLSpPjIom/Q==",
+  "dgSpecHash": "0xXvfGmu06UZaQqDpT9a7mlbx9h5MdEawODPTIDc3cFqaXvWZoNjqGFkrjHuIa3o0tXXRVpP3rPeKU2gQTMeZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\Services.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\CourseApp.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

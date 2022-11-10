@@ -1162,9 +1162,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\Services.Catalog.csproj",
-      "projectName": "Services.Catalog",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\Services.Catalog.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\CourseApp.Catalog.csproj",
+      "projectName": "CourseApp.Catalog",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\CourseApp.Catalog.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\Desktop\\Yeni klasör\\Tutorials\\Microservices\\CourseApp\\Services\\Catalog\\Services.Catalog\\obj\\",
       "projectStyle": "PackageReference",
