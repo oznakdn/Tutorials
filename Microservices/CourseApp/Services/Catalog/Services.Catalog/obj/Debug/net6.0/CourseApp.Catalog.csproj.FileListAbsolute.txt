@@ -40,3 +40,10 @@ C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Ca
 C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\obj\Debug\net6.0\CourseApp.Catalog.pdb
 C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\obj\Debug\net6.0\CourseApp.Catalog.genruntimeconfig.cache
 C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\obj\Debug\net6.0\ref\CourseApp.Catalog.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\Microservices\CourseApp\Services\Catalog\Services.Catalog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
