@@ -48,7 +48,7 @@ namespace CourseApp.Identity.Controllers
                 return Ok(response.Data);
             }
 
-            return BadRequest(response.Error);
+            return BadRequest(response.Error.Errors.FirstOrDefault());
 
         }
     }
