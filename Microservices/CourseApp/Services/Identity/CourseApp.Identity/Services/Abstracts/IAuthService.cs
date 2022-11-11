@@ -8,9 +8,7 @@ namespace CourseApp.Identity.Services.Abstracts
 
         Task<Response<UserDto>> RegisterAsync(RegisterDto registerDto);
         Task<Response<TokenDto>> LoginAsync(LoginDto loginDto);
-
-        Task<Response<TokenDto>> CreateRefreshTokenAsync(string refreshToken);
-
-        Task<Response<string>> RevokeRefreshTokenAsync(string refreshToken);
+        Task<Response<TokenDto>> RefreshLoginAsync(string refreshToken);
+        Task<Response<string>> LogoutAsync(string refreshToken);
     }
 }

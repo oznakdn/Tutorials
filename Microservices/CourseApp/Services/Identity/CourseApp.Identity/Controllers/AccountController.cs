@@ -42,7 +42,7 @@ namespace CourseApp.Identity.Controllers
         [HttpPost(Name = "Logout")]
         public async Task<IActionResult>Logout(string refreshToken)
         {
-            var response = await _authService.RevokeRefreshTokenAsync(refreshToken);
+            var response = await _authService.LogoutAsync(refreshToken);
             if (response.IsSuccessful)
             {
                 return Ok(response.Data);

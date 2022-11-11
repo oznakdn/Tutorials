@@ -22,6 +22,11 @@ namespace CourseApp.Identity.Services.Concretes
         }
 
 
+        /// <summary>
+        /// When registerDto model is valid it records a new user. 
+        /// </summary>
+        /// <param name="registerDto"></param>
+        /// <returns></returns>
         public async Task<Response<UserDto>> RegisterAsync(RegisterDto registerDto)
         {
             var newUser = new ApplicationUser
@@ -39,6 +44,12 @@ namespace CourseApp.Identity.Services.Concretes
             return Response<UserDto>.Fail(new Error(result.Errors.Select(x => x.Description).ToList()),404);
         }
 
+        /// <summary>
+        /// When user could be login it creates an access token and refresh token
+        /// </summary>
+        /// <param name="loginDto"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
 
         public async Task<Response<TokenDto>> LoginAsync(LoginDto loginDto)
         {
@@ -75,7 +86,14 @@ namespace CourseApp.Identity.Services.Concretes
             return Response<TokenDto>.Success(token, 200);
         }
 
-        public async Task<Response<TokenDto>> CreateRefreshTokenAsync(string refreshToken)
+
+        /// <summary>
+        /// When user is login again, it creates a new refresh token
+        /// </summary>
+        /// <param name="refreshToken"></param>
+        /// <returns></returns>
+        
+        public async Task<Response<TokenDto>> RefreshLoginAsync(string refreshToken)
         {
             var existRefreshToken = await _context.RefreshTokens.Where(r => r.Token == refreshToken).FirstOrDefaultAsync();
 
@@ -95,7 +113,14 @@ namespace CourseApp.Identity.Services.Concretes
             return Response<TokenDto>.Success(token, 200);
         }
 
-        public async Task<Response<string>> RevokeRefreshTokenAsync(string refreshToken)
+
+
+        /// <summary>
+        /// When user is logout it removes a the refresh token
+        /// </summary>
+        /// <param name="refreshToken"></param>
+        /// <returns></returns>
+        public async Task<Response<string>> LogoutAsync(string refreshToken)
         {
             var existRefreshToken = await _context.RefreshTokens.Where(r => r.Token == refreshToken).FirstOrDefaultAsync();
 
