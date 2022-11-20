@@ -28,6 +28,7 @@ builder.Services.AddAuthentication(opt =>
 {
     options.Authority = builder.Configuration["IdentityServiceUrl"];
     options.Audience = "thisismyaudience";
+    options.ClaimsIssuer = "identityserver";
     options.RequireHttpsMetadata = false;
 });
 

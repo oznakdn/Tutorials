@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\bin\Debug\net7.0\10-SeedData.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\bin\Debug\net7.0\10-SeedData.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\bin\Debug\net7.0\10-SeedData.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\bin\Debug\net7.0\10-SeedData.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\bin\Debug\net7.0\10-SeedData.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\refint\10-SeedData.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\10-SeedData.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\EntityFrameworkCoreTutorial\10-SeedData\obj\Debug\net7.0\ref\10-SeedData.dll
