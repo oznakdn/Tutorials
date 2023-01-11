@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\bin\Debug\net7.0\Parse_tryParse.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\bin\Debug\net7.0\Parse_tryParse.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\bin\Debug\net7.0\Parse_tryParse.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\bin\Debug\net7.0\Parse_tryParse.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\bin\Debug\net7.0\Parse_tryParse.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\refint\Parse_tryParse.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\Parse_tryParse.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Parse_tryParse\obj\Debug\net7.0\ref\Parse_tryParse.dll

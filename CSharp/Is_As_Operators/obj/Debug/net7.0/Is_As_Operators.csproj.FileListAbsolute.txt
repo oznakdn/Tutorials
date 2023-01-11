@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\bin\Debug\net7.0\Is_As_Operators.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\bin\Debug\net7.0\Is_As_Operators.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\bin\Debug\net7.0\Is_As_Operators.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\bin\Debug\net7.0\Is_As_Operators.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\bin\Debug\net7.0\Is_As_Operators.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\refint\Is_As_Operators.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\Is_As_Operators.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\obj\Debug\net7.0\ref\Is_As_Operators.dll
