@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\bin\Debug\net7.0\Interface_Abstract_Virtual.exe
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\bin\Debug\net7.0\Interface_Abstract_Virtual.deps.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\bin\Debug\net7.0\Interface_Abstract_Virtual.runtimeconfig.json
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\bin\Debug\net7.0\Interface_Abstract_Virtual.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\bin\Debug\net7.0\Interface_Abstract_Virtual.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.AssemblyInfo.cs
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\refint\Interface_Abstract_Virtual.dll
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.pdb
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\Interface_Abstract_Virtual.genruntimeconfig.cache
+C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\obj\Debug\net7.0\ref\Interface_Abstract_Virtual.dll

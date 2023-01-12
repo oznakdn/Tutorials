@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Is_As_Operators
-build_property.ProjectDir = c:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Is_As_Operators\
+build_property.RootNamespace = Interface_Abstract_Virtual
+build_property.ProjectDir = C:\Users\USER\Desktop\Yeni klasör\Tutorials\CSharp\Interface_Abstract_Virtual\
